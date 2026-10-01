@@ -1,44 +1,33 @@
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.keras
+*.data-*
+*.index
+*.pkl
 
-# Environments
+dataset/
+datasets/
+data/
+
+__pycache__/
+.ipynb_checkpoints/
 .env
 .venv/
 venv/
 env/
-ENV/
-
-# Jupyter Notebooks
-.ipynb_checkpoints/
-
-# PyTorch / Models (Large ML model files)
-*.pth
-*.pt
-*.ckpt
-models/resnet50_best/
-models/vit_b16_best/
-
-# Datasets (large datasets)
-data/
-datasets/
-*.zip
-*.tar.gz
-*.tar
+*.pyc
 
 # Kaggle temporary files
 kaggle.json
 /.kaggle/
 
-# Antigravity/IDE temporary files
-.gemini/
+# IDE / Editor
 .idea/
 .vscode/
 *.swp
 *.swo
 
-# Ignore all CSVs by default (to prevent accidental large data uploads)
-# but allow small result CSVs in results directory if added explicitly
-# *.csv (Commented out to not broadly ignore if not needed, but can be used)
+# Antigravity/IDE
+.gemini/
